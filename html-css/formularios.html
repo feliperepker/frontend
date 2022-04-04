@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Formulário</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="./css/reset.css">
+		<link rel="stylesheet" href="./css/style.css">
+	</head>
+	<body>
+
+		<header>
+			<a href="homepage.html"><h2>FRONT-END</h2></a>
+			<nav>
+				<a href="formatacao_de_texto.html">FORMATAÇÃO</a>
+				<a href="tabela.html">TABELAS</a>
+				<a href="formularios.html">FORMULARIOS</a>
+			</nav>
+		</header>
+		<section class="secao2">
+
+				<h1 class="titulo_formulario">Contato</h1>
+				<p class="informacao_formulario">Preencha os campos abaixo</p>
+
+				<form method="post">
+
+					<div class="formulario">
+						<label for="nome">Nome</label>
+						<input type="text" name="nome" id="nome" placeholder="Digite seu nome">
+					</div>
+
+					<div class="formulario">
+						<label for="email">E-mail</label>
+						<input type="email" name="email" id="email" placeholder="Digite seu email">
+					</div>
+
+					<div class="formulario">
+						<label for="mensagem">Mensagem</label>
+						<textarea name="mensagem" id="mensagem" rows="5"></textarea>
+					</div>
+
+					<div class="formulario">
+						<p>
+							<label>Qual linguagem você prefere?</label>
+							<input type="radio" name="linguagens" value="html"> HTML
+							<input type="radio" name="linguagens" value="css"> CSS
+							<input type="radio" name="linguagens" value="javascript"> JavaScript
+						</p>
+					</div>
+
+					<div class="formulario">
+						<p>
+							<label>Quais linguagens você sabe?</label>
+							<input type="checkbox" name="linguagens" value="html"> HTML
+							<input type="checkbox" name="linguagens" value="css"> CSS
+							<input type="checkbox" name="linguagens" value="javascript"> JavaScript
+						</p>
+					</div>
+
+					<div class="formulario">
+						<label>Qual a sua cor favorita?</label>
+						<select>
+							<option value="Azul">Azul</option>
+							<option value="Verde">Verde</option>
+							<option value="Vermelho" selected>Vermelho</option>
+						</select>
+					</div>
+
+					<div class="formulario">
+						<input type="submit" >
+					</div>
+					
+
+				</form>
+
+	
+		</section>
+
+		<footer>
+			<p>Desenvolvido por Felipe</p>
+		</footer>
+		
+	</body>
+</html>
