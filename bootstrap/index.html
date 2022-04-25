@@ -8,16 +8,16 @@
     <link rel="stylesheet" href="./style/custom.css">
     <title>Document</title>
 </head>
-<body>
-
-    <header>
+<body style="background-color: rgb(238, 238, 238);">
+    
+    <header style="background-color: white;">
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <h1>Logo</h1>
+                    <img style="width: 100px; margin: 0px;" src="https://img.freepik.com/vetores-gratis/x-lista-de-letras-na-bola-esfera-ou-circulo-modelo-de-logotipo-generico-corporativo_8580-28.jpg?w=360" alt="">
                 </div>  
                 <div class="col">
-                    <ul class="nav justify-content-end">
+                    <ul class="nav justify-content-end" style="margin-top: 30px;">
                         <li class="nav-item"><a class="nav-link" href="">Home</a></li>
                         <li class="nav-item"><a class="nav-link" href="#Sobre">Sobre</a></li>
                         <li class="nav-item"><a class="nav-link" href="#Produtos">Produtos</a></li>
@@ -27,210 +27,244 @@
             </div>
         </div>
     </header>
-
-
-    <section id="sobre">
+    
+    
+    <section id="carousel">
         <div class="container">
-            <div class="row">
-                 <div class="col-md-7 col-sm-12">
-                    <h1>Sobre nós</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae harum, unde temporibus ut quaerat, corporis accusamus voluptatem totam ea similique aut maxime debitis hic sint deserunt fuga officia! Ducimus, ea.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae harum, unde temporibus ut quaerat, corporis accusamus voluptatem totam ea similique aut maxime debitis hic sint deserunt fuga officia! Ducimus, ea.</p>
-                 </div>
-                 <div class="col-md-5 col-sm-12">
-                     <img src="./imagens/pexels-amar-preciado-11234292.jpg" alt="Imagem exemplo" class="img-fluid">
-                 </div>
-            </div>   
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="ratio ratio-21x9">
+                        <img src="https://media-exp1.licdn.com/dms/image/C4D1BAQErsbCwVt7YEg/company-background_10000/0/1596823567976?e=2147483647&v=beta&t=5wDbcb_bIW4-JO6JQkICnOY8xZkQ2X0MKSXcTFt5iMU" class="d-block w-100" alt="...">
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="ratio ratio-21x9">
+                        <img src="https://www.efficy.com/wp-content/uploads/2019/04/RPA-robot-process-automation.jpg" class="d-block w-100" alt="...">
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+                
         </div>  
-    </section>
-    
-    <section id="produtos">
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <div class="card">
-                        <img src="./imagens/pexels-amar-preciado-11234292.jpg" alt="Imagem exemplo" class="img-fluid">
-                        <div class="card-body">
-                            <h5 class="card-title">Produto 1</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere aliquid voluptatem blanditiis ipsa fuga tempore nesciunt architecto nulla unde veniam illo facilis, officia accusantium et aut sed debitis consequatur minima!</p>
-                            <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-1">Ver Produto</a>
-                        </div>
+        </section>
+        
+        <section id="sobre">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-7 col-sm-12">
+                        <h1 style="text-align: center; margin-bottom: 10px;">Sobre nós</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae harum, unde temporibus ut quaerat, corporis accusamus voluptatem totam ea similique aut maxime debitis hic sint deserunt fuga officia! Ducimus, ea.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae harum, unde temporibus ut quaerat, corporis accusamus voluptatem totam ea similique aut maxime debitis hic sint deserunt fuga officia! Ducimus, ea.</p>
                     </div>
-
-                    <div class="card">
-                        <img src="./imagens/pexels-amar-preciado-11234292.jpg" alt="Imagem exemplo" class="img-fluid">
-                        <div class="card-body">
-                            <h5 class="card-title">Produto 2</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere aliquid voluptatem blanditiis ipsa fuga tempore nesciunt architecto nulla unde veniam illo facilis, officia accusantium et aut sed debitis consequatur minima!</p>
-                            <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-2">Ver Produto</a>
-                        </div>
+                    <div class="col-md-5 col-sm-12">
+                        <img style="border-radius: 200px;" src="./imagens/pexels-amar-preciado-11234292.jpg" alt="Imagem exemplo" class="img-fluid">
                     </div>
-
-                    <div class="card">
-                        <img src="./imagens/pexels-amar-preciado-11234292.jpg" alt="Imagem exemplo" class="img-fluid">
-                        <div class="card-body">
-                            <h5 class="card-title">Produto 3</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere aliquid voluptatem blanditiis ipsa fuga tempore nesciunt architecto nulla unde veniam illo facilis, officia accusantium et aut sed debitis consequatur minima!</p>
-                            <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-3">Ver Produto</a>
+                </div>   
+            </div>  
+        </section>
+        
+        <section id="produtos">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="card">
+                            <img style="width: 500px; height: 200px; padding: 10px;" src="https://fluxoconsultoria.poli.ufrj.br/wp-content/uploads/2020/06/desenvolvimento-de-maquinas.jpg" alt="Imagem exemplo" class="img-fluid">
+                            <div class="card-body">
+                                <h5 class="card-title">Produto 1</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere aliquid voluptatem blanditiis ipsa fuga tempore nesciunt architecto nulla unde veniam illo facilis, officia accusantium et aut sed debitis consequatur minima!</p>
+                                <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-1">Ver Produto</a>
+                            </div>
+                        </div>
+                        
+                        <div class="card">
+                            <img style="width: 500px; height: 200px; padding: 10px;" src="https://www.kuka.com/-/media/kuka-corporate/images/industries/case-studies/saacke/saacke_kr_agilus_wp_2.jpg?rev=-1&w=1900&hash=B3CAFFEC8FA00A1A10EFEA1B4EC7D57B" alt="Imagem exemplo" class="img-fluid">
+                            <div class="card-body">
+                                <h5 class="card-title">Produto 2</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere aliquid voluptatem blanditiis ipsa fuga tempore nesciunt architecto nulla unde veniam illo facilis, officia accusantium et aut sed debitis consequatur minima!</p>
+                                <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-2">Ver Produto</a>
+                            </div>
+                        </div>
+                        
+                        <div class="card">
+                            <img style="width: 500px; height: 200px; padding: 10px;" src="https://s3-us-west-2.amazonaws.com/cursandotecnico/imagens/box_produtos/profissionalizante/manutencao-elementos-de-maquinas-e-metrologia.jpg" alt="Imagem exemplo" class="img-fluid">
+                            <div class="card-body">
+                                <h5 class="card-title">Produto 3</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere aliquid voluptatem blanditiis ipsa fuga tempore nesciunt architecto nulla unde veniam illo facilis, officia accusantium et aut sed debitis consequatur minima!</p>
+                                <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-3">Ver Produto</a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    
-
-    <section id="contato">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 col-sm-12">
-                    <h2>Contato</h2>
-                    <p>Ficou interessado? Preencha os campos do formulário para receber uma cotação.</p>
-                </div>
-                <div class="col-md-6 col-sm-12">
-                    <form class="form">
-
-                        <div class="input-group">
-                            <input class="form-control" type="text" name="nome" placeholder="Digite seu nome" >
-                        </div>
-                        
-                        <div class="input-group">
-                            <input class="form-control" type="text" name="nome" placeholder="Digite seu email" >
-                        </div>
-
-                        <div class="input-group">
-                           <textarea class="form-control" name="" id="" cols="30" rows="10"></textarea>
-                        </div>
-                        
-                        <button type="submit" class="btn btn-lg btn-succes">Solicitar cotação</button>
-                        
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
-    
-    <div class="modal fade" id="modal-1">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">Produto 1</h5>
-                    <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                        <h6>Insira o tamanho</h6>
-                        <table class="table table-hover table-striped">
-                            <thead>
-                               <tr>
-                                <th>Tamanho</td>
-                                <th>Valor</td>
-                            </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                <td>P</td>
-                                <td>R$ 100</td>
-                            </tr>
-                            <tr>
-                                <td>M</td>
-                                <td>R$ 200</td>
-                            </tr>
-                            <tr>
-                                <td>G</td>
-                                <td>R$ 300</td>
-                            </tr>
-                            </tbody>
+        </section>
+        
+        
+        <section id="contato">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-12">
+                        <h2>Contato</h2>
+                        <p>Ficou interessado? Preencha os campos do formulário para receber uma cotação.</p>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <form class="form">
                             
-                        </table>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="modal fade" id="modal-2">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">Produto 2</h5>
-                    <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                        <h6>Insira o tamanho</h6>
-                        <table class="table table-hover table-striped">
-                            <thead>
-                               <tr>
-                                <th>Tamanho</td>
-                                <th>Valor</td>
-                            </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                <td>P</td>
-                                <td>R$ 200</td>
-                            </tr>
-                            <tr>
-                                <td>M</td>
-                                <td>R$ 300</td>
-                            </tr>
-                            <tr>
-                                <td>G</td>
-                                <td>R$ 400</td>
-                            </tr>
-                            </tbody>
+                            <div class="input-group">
+                                <input class="form-control" type="text" name="nome" placeholder="Digite seu nome" >
+                            </div>
                             
-                        </table>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <div class="input-group">
+                                <input class="form-control" type="text" name="nome" placeholder="Digite seu email" >
+                            </div>
+                            
+                            <div class="input-group">
+                                <textarea class="form-control" name="" id="" cols="30" rows="10"></textarea>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-lg btn-succes">Solicitar cotação</button>
+                            
+                        </form>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="modal fade" id="modal-3">
+        </section>
+        
+        <div class="modal fade" id="modal-1">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title">Produto 3</h5>
+                        <h5 class="modal-title">Produto 1</h5>
                         <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                            <h6>Insira o tamanho</h6>
-                            <table class="table table-hover table-striped">
-                                <thead>
-                                   <tr>
+                        <h6>Insira o tamanho</h6>
+                        <table class="table table-hover table-striped">
+                            <thead>
+                                <tr>
                                     <th>Tamanho</td>
-                                    <th>Valor</td>
-                                </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                    <td>P</td>
-                                    <td>R$ 200</td>
-                                </tr>
-                                <tr>
-                                    <td>M</td>
-                                    <td>R$ 300</td>
-                                </tr>
-                                <tr>
-                                    <td>G</td>
-                                    <td>R$ 400</td>
-                                </tr>
-                                </tbody>
-                                
-                            </table>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        <th>Valor</td>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>P</td>
+                                            <td>R$ 100</td>
+                                        </tr>
+                                        <tr>
+                                            <td>M</td>
+                                            <td>R$ 200</td>
+                                        </tr>
+                                        <tr>
+                                            <td>G</td>
+                                            <td>R$ 300</td>
+                                        </tr>
+                                    </tbody>
+                                    
+                                </table>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </div>
-     </div>
-            
-  
-            
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-</body>
-</html>
+                <div class="modal fade" id="modal-2">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Produto 2</h5>
+                                <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <h6>Insira o tamanho</h6>
+                                <table class="table table-hover table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th>Tamanho</td>
+                                                <th>Valor</td>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>P</td>
+                                                    <td>R$ 200</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>M</td>
+                                                    <td>R$ 300</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>G</td>
+                                                    <td>R$ 400</td>
+                                                </tr>
+                                            </tbody>
+                                            
+                                        </table>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal fade" id="modal-3">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title">Produto 3</h5>
+                                            <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <h6>Insira o tamanho</h6>
+                                            <table class="table table-hover table-striped">
+                                                <thead>
+                                                    <tr>
+                                                        <th>Tamanho</td>
+                                                            <th>Valor</td>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td>P</td>
+                                                                <td>R$ 200</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>M</td>
+                                                                <td>R$ 300</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>G</td>
+                                                                <td>R$ 400</td>
+                                                            </tr>
+                                                        </tbody>
+                                                        
+                                                    </table>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                
+                                
+                                
+                                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+                                <script>
+                                    var myCarousel = document.querySelector('#myCarousel')
+                                    var carousel = new bootstrap.Carousel(myCarousel, {
+                                        interval: 2000,
+                                    })
+                                </script>
+                            </body>
+                            </html>
