@@ -1,9 +1,18 @@
+@mixin theme ($theme: #ee5){
+    border: 1px solid $theme
+    
+}
+
+
 .cars {
+    
     h2 {
         color: $color-02;
     }
     li {
+        @include theme;
         color: $color-04;
+        display: block;
 
         a {
             background-color: $color-default;
