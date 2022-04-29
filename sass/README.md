@@ -1,57 +1,49 @@
-# Gulp
+# SASS
+Referência: https://sass-lang.com/
 
-Kit de ferramentas de automação de tarefas baseada em JavaScript
+## Introdução a pré-processadores
+São ferramentas utilizadas para aumentar a produtividade no desenvolvimento CSS, mantentendo a compatibilidade entre as versões do CSS nos navegadores.
 
-- Otimizar o fluxo de trabalho (desenvolvimento)
-- Organização e orquestração de arquivos
-- Ajuda a evitar trabalhos lentos e repetitivo
-- Criação de pipelines
-- Você cria as configurações necessárias (flexível)
-- Tarefas escritas em JS ou plug-ins
-- Aplica transformações em arquivos ainda na memória (antes de gravar no disco)
+- SASS https://sass-lang.com/
+- Stylus https://stylus-lang.com/
+- Less https://lesscss.org/ 
+- PostCSS https://postcss.org/
 
-## Porquê automatizar?
-- Melhor organização
-- Evitar repetição de tarefas
-- Mais tempo para focar no mais importante: regras de negócio e experiência do usuário
+## Preprocessamento
+- Processo de interpretação intermediário
+- Antes do processamento do navegador
+- Prevenção de erros
+- Organização 
+- Reaproveitamento
 
-## Principais recursos
-- Minificação de arquivos
-- Otimização de imagens (para melhor performance)
-- Mescla de arquivos de diferentes origens
+## Variáveis
+- Facilitam a customização e reaproveitamento
 
-## Transpilação para JS
-É o processo de transformação (conversão) de escrita em outras linguagens para o JavaScript. Você poderá escrever em TypeScript ou outras variações do JS que o código será convertido para JavaS.
+## Identação / Hirarquia
+- Estruturação de componentes
+- Herança
+- Evita sobreposição
 
-Todo o processo é executado a partir node.js e gulp-cli (linha de comando)
-
-## Global x Local
-- A instalação do Node.js é global
-- Já o Gulp e seus plugins são instalados localmente (em cada projeto)
-
-## Gerenciadores de pacotes
-- Dependências do projeto
-- NPM: Node Package Manager
-- Utiliza o Node.js
-- Permite a configuração rápida e fácil de ambientes e plugins Node
+## Partials
+- Modularizar o código
+- snippets 
 
 
-## Instalando o Gulp
-- Rodar o Node.js
-- Agora na pasta do projeto, adicionar o npm: npm init -y
-- Instalar o gulp-cli (Command Line Interface) globalmente: npm install gulp-cli -g
-- Criar o gulpfile.js
+## Code Together
 
-## Trabalhando com Gulp
-- Baseado em funções: tasks
-- Organização do projeto
-- Otimização de arquivos
-- Mesclagem e Minificação de CSS e JS
-- Diminuição do tamanho (bytes) de imagens
-
-## Rodar o projeto
-- Executar os comandos:
+1. ter no node instalado
+2. instalar o sass (https://sass-lang.com/install):
 ```
-npm install
-gulp serve
+npm install -g sass    
 ```
+3. criar projeto ou clonar o repositório 
+4. criar ou alterar arquivo style.scss
+5. rodar o comando para processar o css:
+```
+sass ./scss/style.scss ./css/style.css 
+```
+
+6. customizar o projeto 
+7. salvar alterações
+8. comitar no seu repositório
+9. enviar o link do repositório para o portal da EBAC
