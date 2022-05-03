@@ -1,0 +1,33 @@
+header{
+    background-color: rgb(250, 249, 249) ;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center;
+    img{
+        width: 40px;
+        padding: 10px;
+        margin-right: auto;
+
+    }
+
+    div{
+        
+        margin-right: 20px;
+
+            a{
+                margin-left: 20px;
+                text-decoration: none;
+                color: $font-color-secondary;
+                padding-bottom: 14px;
+                
+            }
+            
+   
+    } 
+}
+a:hover{
+    border-bottom: 3px solid rgb(212, 151, 58);
+    color: rgb(212, 151, 58);
+}

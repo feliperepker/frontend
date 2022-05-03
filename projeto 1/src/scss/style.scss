@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+$color-primary: #034072;
+$color-secondary: #fa873a;
+$font-color-primary: #ffffff;
+$font-color-secondary: #454545;
+$font-default: 'Roboto', Helvetica, sans-serif;
+$font-size-default: 1.6rem;
+$font-size-nav: 1.8rem;
+
+
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    font-family: $font-default;
+}
+
+
+.principal{
+    height: 300px;
+    width: auto;
+    background-image: url('../assets/images/principal.jpeg'); 
+    background-size: cover;
+    background-position: right center;
+    background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.466)
+}
+
+@import 'header';
+@import 'section';
+@import 'display';
+@import 'footer';

@@ -1,0 +1,21 @@
+.conteudo{
+    display: flex;
+    background-color: rgb(250, 249, 249);
+    width: auto;
+    height: 40vh;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+
+    h1{
+        font-size: 5vh;
+        margin-bottom: 20px;
+    }
+    p{
+        margin-left: 20%;
+        margin-right: 20%;
+        font-size: 3vh
+    }
+}
