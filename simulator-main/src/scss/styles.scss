@@ -1,0 +1,94 @@
+$color-font: #fff;
+$color-bg-default: #33f;
+$font-default: Arial, Helvetica, sans-serif;
+
+body {
+    font-family: $font-default;
+    margin: 0;
+}
+
+h1 {
+    color: $color-font;
+    text-align: center;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 100%;
+    
+    
+    img {
+       height: 200px;
+       object-fit: fill;
+       object-position: bottom;
+
+       &:hover{
+           opacity: 75%;
+       }
+    }
+
+}
+
+
+header{
+    width: 100%;
+    position: relative;
+    height: 50vh;
+    overflow: hidden;
+}
+
+.waves{
+    bottom: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 130%;
+
+    path:nth-child(1){
+        animation: dash1 5s ease-in-out infinite ;
+        stroke-dasharray: 150;
+        stroke: #fff;
+        stroke-width: 3px;
+    }
+    path:nth-child(2){
+        animation: wave2 5s ease-in-out infinite alternate;
+    }
+    path:nth-child(3){
+        animation: dash1 10s ease-in-out infinite;
+        stroke-dasharray: 150;
+        stroke: #fff;
+        stroke-width: 3px;
+    }
+    }
+
+
+
+@keyframes wave1{
+    from{
+        transform: translate(-300px)
+    }
+}
+@keyframes wave2{
+    from{
+        transform: translate(-300px)
+    }
+}
+@keyframes wave3{
+    from{
+        transform: translate(-100px)
+    }
+    to{
+
+    }
+}
+
+@keyframes dash1{
+    from{
+        stroke-dashoffset: 2000;
+    }
+}
+
+@import 'player';
